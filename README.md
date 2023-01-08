@@ -1,2 +1,2 @@
 # Dreamscape
-Dreamscape is a choice-based visual novel with an action-packed and heavily plot-driven story made for the 2022 Xbox Game Camp. It's still in development and was made using RenPy, a virtual novel creation software that uses python.
+With stunning character and background art, Dreamscape immerses the player into a beautiful and mysterious dreamworld which the protagonist must traverse. The story of Dreamscape mainly focuses on people’s inner dreams and desires and how these desires interact with their true self. Through excellent story-telling, this game takes the reader through an engaging journey of personal conflict and introspection. This was a game project done for the 2022 Xbox Game Camp in the summer with three of my friends.
