@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 71, in script
+    with fadez #fade screen transition
+TypeError: 'MultipleTransition' object is not callable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 71, in script
+    with fadez #fade screen transition
+  File "C:\Users\Hannah Norman-Brown\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1658, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "C:\Users\Hannah Norman-Brown\Downloads\renpy-8.0.3-sdk\renpy\exports.py", line 1657, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Hannah Norman-Brown\Downloads\renpy-8.0.3-sdk\renpy\display\core.py", line 2798, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\Hannah Norman-Brown\Downloads\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\Hannah Norman-Brown\Downloads\renpy-8.0.3-sdk\renpy\display\core.py", line 3752, in interact_core
+    trans = self.ongoing_transition[None](
+TypeError: 'MultipleTransition' object is not callable
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.0.3.22090809
+Dreamscape 1.0
+Sat Jan  7 22:25:35 2023
